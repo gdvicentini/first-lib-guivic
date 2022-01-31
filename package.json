@@ -1,0 +1,26 @@
+{
+  "name": "first-lib-guivic",
+  "version": "1.0.0",
+  "description": "Primeira biblioteca criada como teste para o curso de nodeJS",
+  "main": "./cli.js",
+  "bin": {
+    "<flib-gv>": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "keywords": ["markdown", "URL", "nodeJS"],
+  "author": "Gui Vicentini <guii.vicentini@hotmail.com>",
+  "license": "ISC",
+  "bugs": "guii.vicentini@hotmail.com",
+  "dependencies": {
+    "chalk": "4.0",
+    "chalk-template": "^0.3.1",
+    "node-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
